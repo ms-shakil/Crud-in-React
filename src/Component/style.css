@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(208, 205, 205);
+}
+.InfoBox{
+    width: 20%;
+    height: 360px;
+    box-sizing: border-box;
+    margin-left: 40%;
+    margin-top: 60px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(73, 70, 70);
+    box-sizing: border-box;
+    background-color: white;
+}
+.InfoBox h1{
+    color: rgb(102, 100, 100);
+}
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(141, 140, 140);
+    border-radius: 4px;
+}
+.InfoBox button{
+    margin-top: 10px;
+    padding: 10px 26px;
+    border-radius: 5px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+}
+
+.Information{
+    margin-left: 25%;
+}
+
+ 
+ th {
+    border:3px solid rgb(163, 161, 161);
+    border-radius: 5px;
+    padding: 10px 25px;
+  }
+td{
+    border: 1px solid rgb(163, 161, 161);
+    padding: 10px 15px;
+   border-radius: 5px;
+}
+
+.update{
+    padding: 12px 20px;
+    background-color: rgb(77, 146, 61);
+    border: 1px solid rgb(77, 146, 61);
+    color: white;
+    border-radius: 5px;
+    margin-right: 6px;
+    margin-left: 5px;
+}  
+.delete{
+    padding: 12px 20px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    border-radius: 5px;
+}  
+
+.danger{
+    color: red;
+    font-weight: bold;
+}
